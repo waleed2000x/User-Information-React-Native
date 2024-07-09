@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RN-Calc",
-    "slug": "RN-Calc",
+    "name": "Info Fetcher",
+    "slug": "Info Fetcher",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,5 +23,13 @@
     "web": {
       "favicon": "./assets/favicon.png"
     }
-  }
+  },
+  "plugins": [
+    [
+      "expo-location",
+      {
+        "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+      }
+    ]
+  ]
 }
