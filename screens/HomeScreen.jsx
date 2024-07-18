@@ -34,7 +34,7 @@ const HomeScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Your IP Information</Text>
+      <Text style={styles.title}>Your Information</Text>
       {ipInfo && <InfoCard ipInfo={ipInfo} />}
     </View>
   );
